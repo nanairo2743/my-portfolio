@@ -6,7 +6,7 @@
     position: relative;
   
     &[data-haslink='true'] {
-      transition: $transition;
+      transition: all 0.3s ease-in-out;
       border: solid 1.5px #048dff;
   
       &:hover {

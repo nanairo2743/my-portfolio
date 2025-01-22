@@ -5,7 +5,7 @@ import LinksSection from "../../components/home/links";
 //import ProductsSection from '../../components/home/products';
 import SkillsSection from "../../components/home/skills";
 import WorksSection from "../../components/home/works";
-//import { articles, products } from '@/utils/articles';
+//import { products } from '../../util/articles';
 
 export default function Home() {
   return (

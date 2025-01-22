@@ -13,6 +13,7 @@ export default function Home() {
       <AboutSection />
       <LinksSection />
       <AwardsSection />
+      <ProductsSection articles={products} />
       <SkillsSection />
       <WorksSection />
       <ExperiencesSection />

@@ -12,13 +12,9 @@ function CardLayout(props: Props): ReactElement {
   const { children, className, link, ...rest } = props;
 
   return (
-    <article className={`${styles.card} ${className || ''}`} {...rest} data-haslink={link !== undefined}>
-      {link !== undefined && (
-        <span className={styles.linkWrapper}>
-          <Link href={link}>{children}</Link>
-        </span>
-      )}
-      {link === undefined && children}
+    <article className={`${styles.card} ${className}`} {...rest} data-haslink={link !== undefined}>
+      {link !== undefined && <Link className={styles.link} href={link} />}
+      {children}
     </article>
   );
 }

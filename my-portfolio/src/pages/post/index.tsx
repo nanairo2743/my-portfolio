@@ -12,12 +12,11 @@ const sampleMarkdown = `
 `;
 
 const Post = () => {
-  const [markdownContent] = useState(sampleMarkdown);
+
 
   return (
     <div className="post">
       <h1>プロジェクト & 記事</h1>
-      <ReactMarkdown>{markdownContent}</ReactMarkdown>
     </div>
   );
 };

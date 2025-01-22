@@ -9,7 +9,6 @@ export const SKILLS: IconKey[] = [
   'react',
   'vite',
   'nextjs',
-  'biome',
   'python',
   'c',
   'github',

@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <AboutSection />
-      <AwardsSection />
       <LinksSection />
+      <AwardsSection />
       <SkillsSection />
       <WorksSection />
       <ExperiencesSection />

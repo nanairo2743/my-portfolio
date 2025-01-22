@@ -3,7 +3,7 @@
     display: block;
   
     .date {
-      font-size: $fontsize-md;
+      font-size: 1rem;
     }
   
     .main {
@@ -11,7 +11,7 @@
   
       > * {
         display: inline;
-        font-size: $fontsize-lg;
+        font-size: 1.5rem;
       }
   
       .title {
@@ -24,12 +24,12 @@
       }
   
       .link_icon {
-        height: $fontsize-lg;
+        height: 1.5rem;
       }
     }
   
     .description {
-      font-size: $fontsize-md;
+      font-size: 1rem;
       margin-left: 1rem;
     }
   }

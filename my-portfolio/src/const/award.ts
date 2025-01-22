@@ -1,14 +1,14 @@
-import type { ListItemProps } from '@/components/shares/listItem';
+import type { ListItemProps } from '../components/shares/listitem';
 
 import dayjs from 'dayjs';
 
 export const AWARD: ListItemProps[] = [
   {
-    date: dayjs('2020-10'),
+    date: dayjs('2023-11'),
     title: '技育CANPキャラバン',
     type: '企業賞',
     description: '麻雀センシング',
-    link: 'https://web-ext.u-aizu.ac.jp/pc-concours/2020/final/f_cgaward.html',
+    link: 'https://x.com/geek_pjt/status/1725814437653938213',
     dateFormat: 'YYYY.MM',
   },
   {

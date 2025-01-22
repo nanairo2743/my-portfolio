@@ -3,14 +3,10 @@
     padding: 40px;
     width: 100%;
     max-width: 1200px;
-  
-    @include mobile {
-      padding: 20px;
-    }
-  
+
     .title {
       h1 {
-        font-size: $fontsize-xl;
+        font-size: 2rem;
       }
   
       &[data-underline='true'] {
@@ -19,7 +15,7 @@
   
         &::after {
           content: '';
-          border-bottom: 1px solid $primary-color;
+          border-bottom: 1px solid #000;
           position: absolute;
           left: 0;
           right: -70px;

@@ -1,13 +1,13 @@
 .card {
     padding: 12px;
-    background-color: $background-color;
+    background-color: #fff;
     border-radius: 10px;
-    border: solid 1px $primary-color;
+    border: solid 1px #000;
     position: relative;
   
     &[data-haslink='true'] {
       transition: $transition;
-      border: solid 1.5px $accent-color;
+      border: solid 1.5px #048dff;
   
       &:hover {
         scale: 1.03;

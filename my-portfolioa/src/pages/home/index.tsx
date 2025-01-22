@@ -12,7 +12,6 @@ export default function Home() {
     <>
       <AboutSection />
       <LinksSection />
-      <ProductsSection articles={products} />
       <AwardsSection />
       <SkillsSection />
       <WorksSection />

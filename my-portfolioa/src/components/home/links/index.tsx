@@ -1,8 +1,8 @@
-import type { ReactElement } from 'react';
-import { FadeIn, FadeInWithStagger } from '../../../components/shares/fadein';
-import Icon from '../../shares/icon';
-import { LINKS } from '../../../const/links';
-import styles from './index.module.scss';
+import type { ReactElement } from "react";
+import { FadeIn, FadeInWithStagger } from "../../shares/fadein";
+import Icon from "../../shares/icon";
+import { LINKS } from "../../../const/links";
+import styles from "./index.module.scss";
 
 function LinksSection(): ReactElement {
   return (
@@ -12,7 +12,11 @@ function LinksSection(): ReactElement {
           <FadeIn direction="left" key={link.link}>
             <p>
               <a href={link.link} target="_blank">
-                <Icon className={styles.icon} color="black" iconKey={link.iconKey} />
+                <Icon
+                  className={styles.icon}
+                  color="black"
+                  iconKey={link.iconKey}
+                />
                 <span>{link.name}</span>
               </a>
             </p>

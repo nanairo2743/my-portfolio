@@ -1,19 +1,19 @@
-import type { GetArticle } from '../../../../util/articles';
-import type { ReactElement } from 'react';
+import type { GetArticle } from "../../../../util/articles";
+import type { ReactElement } from "react";
 
-import Icon from '../../../../components/shares/icon';
-import CardLayout from '../../../../layouts/card';
+import Icon from "../../../shares/icon";
+import CardLayout from "../../../../layouts/card";
 
-import { toProduct } from '../../../../util/articles';
-import dayjs from 'dayjs';
-import styles from './index.module.scss';
+import { toProduct } from "../../../../util/articles";
+import dayjs from "dayjs";
+import styles from "./index.module.scss";
 
 interface Props {
   article: GetArticle;
   link: string;
 }
 
-const defaultThumbnail = '/default/penguin.webp';
+const defaultThumbnail = "/default/penguin.webp";
 
 function ProductCard(props: Props): ReactElement {
   const { article, link } = props;
@@ -31,11 +31,15 @@ function ProductCard(props: Props): ReactElement {
             ))}
           </div>
         </div>
-        <p className={styles.date}>{dayjs(createdAt).format('YYYY/MM/DD')}</p>
+        <p className={styles.date}>{dayjs(createdAt).format("YYYY/MM/DD")}</p>
       </div>
 
       <div className={styles.right}>
-        <img alt="" className={styles.thumbnail} src={thumbnail ?? defaultThumbnail} />
+        <img
+          alt=""
+          className={styles.thumbnail}
+          src={thumbnail ?? defaultThumbnail}
+        />
       </div>
     </CardLayout>
   );

@@ -1,0 +1,37 @@
+.lit_item {
+    list-style-type: none;
+    display: block;
+  
+    .date {
+      font-size: 1rem;
+    }
+  
+    .main {
+      display: block;
+  
+      > * {
+        display: inline;
+        font-size: 1.5rem;
+      }
+  
+      .title {
+        margin-left: 20px;
+        font-weight: bold;
+      }
+  
+      .link {
+        margin-left: 10px;
+      }
+  
+      .link_icon {
+        height: 1.5rem;
+      }
+    }
+  
+    .description {
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  }
+
+  

@@ -1,0 +1,26 @@
+.card {
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 1px #000;
+    position: relative;
+  
+    &[data-haslink='true'] {
+      transition: $transition;
+      border: solid 1.5px #048dff;
+  
+      &:hover {
+        scale: 1.03;
+      }
+    }
+  
+    .link {
+      cursor: pointer;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+  }
+  

@@ -5,7 +5,7 @@ import styles from './index.module.scss';
 function Title(): ReactElement {
   return (
     <div className={styles.title}>
-      <h3 className={styles.title}>nanairo</h3>
+      <h3 className={styles.title}>長尾夏希</h3>
     </div>
   );
 }
